@@ -31,7 +31,7 @@ public class Deque {
         // Nếu không phải node đầu tiên thì biến nó thành node head
         else {
             newNode.next = head;
-            head.prev = tail;
+            head.prev = newNode;
             head = newNode;
         }
         size++;

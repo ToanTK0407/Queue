@@ -4,8 +4,12 @@ public class App {
 
         // Add elements to the front and rear
         deque.addFirst(10);
+        deque.addFirst(20);
+        deque.addFirst(4);
         deque.addLast(20);
         deque.addFirst(5);
+        deque.addLast(23);
+        deque.addLast(18);
 
         // Display elements
         System.out.println("First Element: " + deque.peekFirst()); // 5
